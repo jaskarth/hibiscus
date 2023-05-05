@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "jaskarth.hibiscus.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinStrongholdPieces",
+    "StrongholdPiecesAccessor"
+  ],
+  "client": [
+    "MixinTitleScreen",
+    "client.MixinGameRenderer",
+    "client.MixinLevelRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "hibiscus",
+  "version": "${version}",
+  "name": "Hibiscus",
+  "description": "Niche solutions to niche modding problems.",
+  "authors": [
+    "Jasmine Karthikeyan"
+  ],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/hibiscus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "jaskarth.hibiscus.client.HibiscusClient"
+    ],
+    "main": [
+      "jaskarth.hibiscus.Hibiscus"
+    ]
+  },
+  "accessWidener": "hibiscus.aw",
+  "mixins": [
+    "hibiscus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
