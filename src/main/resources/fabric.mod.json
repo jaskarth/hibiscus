@@ -5,7 +5,7 @@
   "name": "Hibiscus",
   "description": "Niche solutions to niche modding problems.",
   "authors": [
-    "Jasmine Karthikeyan"
+    "jaskarth"
   ],
   "contact": {},
   "license": "LGPL-3.0",
@@ -13,10 +13,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "jaskarth.hibiscus.client.HibiscusClient"
+      "com.jaskarth.hibiscus.client.HibiscusClient"
     ],
     "main": [
-      "jaskarth.hibiscus.Hibiscus"
+      "com.jaskarth.hibiscus.Hibiscus"
     ]
   },
   "accessWidener": "hibiscus.aw",
